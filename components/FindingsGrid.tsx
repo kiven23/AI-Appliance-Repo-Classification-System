@@ -10,7 +10,7 @@ const items: (keyof Findings)[] = [
   'rust',
   'crack',
   'accessories',
-  'functionality',
+  'functionality'
 ];
 
 export default function FindingsGrid({ findings }: { findings: Findings }) {

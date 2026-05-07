@@ -1,7 +1,7 @@
 'use client';
 export default function Card({
   title,
-  children,
+  children
 }: {
   title: string;
   children: React.ReactNode;

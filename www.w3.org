@@ -1,7 +1,7 @@
 'use client';
 export default function LoadingSpinner({
   size = 24,
-  className = '',
+  className = ''
 }: {
   size?: number;
   className?: string;

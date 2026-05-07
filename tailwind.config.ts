@@ -11,9 +11,7 @@ export default {
         group5: '#fb923c',
         group6: '#ef4444'
       },
-      borderRadius: {
-        xl: '1rem'
-      }
+      borderRadius: { xl: '1rem' }
     }
   },
   plugins: []

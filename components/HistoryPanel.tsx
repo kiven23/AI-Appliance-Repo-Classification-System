@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function HistoryPanel({
   items,
-  onSelect,
+  onSelect
 }: {
   items: AnalysisResult[];
   onSelect: (item: AnalysisResult) => void;

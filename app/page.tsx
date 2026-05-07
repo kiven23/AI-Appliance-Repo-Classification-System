@@ -28,7 +28,7 @@ export default function Home() {
       const entry = { ...res, id: uuidv4(), imageUrl: preview! };
       setResult(entry);
       setHistory((prev) => [entry, ...prev]);
-    } catch (e) {
+    } catch {
       alert('Analysis failed. Please try again.');
     } finally {
       setLoading(false);
