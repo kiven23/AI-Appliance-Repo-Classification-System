@@ -1,0 +1,25 @@
+app/
+  layout.tsx
+  page.tsx
+  api/
+    analyze/route.ts   (proxy for local dev only)
+components/
+  UploadZone.tsx
+  ResultCard.tsx
+  FindingsGrid.tsx
+  HistoryPanel.tsx
+  Badge.tsx
+  LoadingSpinner.tsx
+lib/
+  api.ts
+  types.ts
+public/
+  favicon.ico
+  placeholder.png
+styles/
+  globals.css
+tailwind.config.ts
+next.config.mjs
+tsconfig.json
+package.json
+.eslintrc.json
