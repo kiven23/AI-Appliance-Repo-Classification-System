@@ -1,6 +1,5 @@
-const nextConfig = {
-  output: "standalone",
-  reactStrictMode: true
-};
-
-export default nextConfig;
+import { defineConfig } from 'next';
+export default defineConfig({
+  reactStrictMode: true,
+  images: { remotePatterns: [{ hostname: 'localhost' }] }
+});
